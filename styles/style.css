@@ -26,48 +26,54 @@ header {
 }
 
 .logo {
-    width:350px;
+    width: 350px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+ 
 }
 
-nav ul li a {
+nav ul li a{
     text-decoration: none;
     padding: 10px;
-    background-color: rgba(74, 253, 128, 0.904);
+    background-color: rgba(74, 253, 74, 0.904);
     border-radius: 10px;
     color: beige;
     font-weight: bold;
+}
+nav ul li a:hover {
+    color: blue;
 
 }
-
 .Synopsis {
     margin: 20px;
     padding: 30px;
-    background-color:  rgba(245, 220, 223, 0.315);
+    background-color: rgba(245, 220, 223, 0.315);
     /*display: flex;
     justify-content: space-between;
     align-items: center;*/
 }
+
 .tittle {
     font-size: 40px;
     margin: 20px;
     text-align: start;
     color: beige;
     text-shadow: 4px 4px 3px rgba(74, 253, 128, 0.904);
-    
-}  
+
+}
+
 .Synopsis img {
     margin-right: 20px;
     border-radius: 10px;
-    width: 500px;  
+    width: 500px;
     float: left;
 
 }
+
 .Synopsis div p {
     font-style: italic;
     line-height: 2;
@@ -78,6 +84,7 @@ nav ul li a {
 .Synopsis span {
     font-weight: bold;
 }
+
 .Synopsis p {
     padding: 5px;
 }
@@ -116,7 +123,7 @@ nav ul li a {
     border-radius: 50%;
 }
 
-.Fan-facts{
+.Fan-facts {
     background-color: rgba(245, 220, 223, 0.315);
     margin: 20px;
     padding: 20px;
@@ -124,6 +131,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
 }
+
 .title {
     margin: 20px;
     padding: 20px;
@@ -168,9 +176,11 @@ footer {
     border-color: rgba(245, 220, 223, 0.315);
     border-width: 2px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px 0 black;
 }
 
 footer div {
@@ -180,13 +190,12 @@ footer div {
 }
 
 .About {
-   /* background-color: rgba(245, 220, 223, 0.315);*/
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     width: 350px;
     border-radius: 10px;
     text-align: center;
-
+    
 }
 
 .About p {
@@ -198,35 +207,35 @@ footer div {
 footer ul li {
     list-style: none;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1,5;
     display: flex;
     justify-content: left;
     align-items: center;
+  
 }
 
-footer ul li img {
-    width: 30px;
+.github {
+    width: 35px;
     margin: 5px;
-}
+    }
 
-footer ul li svg {
+.email{
     width: 20px;
-    margin: 10px;
+    margin:15px;
+        
 }
 
-footer ul li a {
+footer ul li a{
     text-decoration: none;
     color: black;
     text-align: center;
+    padding: 5px;
+    
 }
 
 footer ul li:hover {
-    background-color: #ebc4c4;
-    padding: 5px;
-    border-radius: 10px;
-   
-}
-
+    background-color: rgb(233, 122, 159);
+    border-radius: 15px;
 }
 
 @media(max-width: 480px) {

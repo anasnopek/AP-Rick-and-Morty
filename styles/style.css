@@ -22,9 +22,12 @@ header {
 }
 
 .image {
-    width: 200px;
+    width: 200px; 
 }
-
+.portal {
+    width: 150px;
+    border-radius: 50%;
+}
 .logo {
     width: 350px;
 }
@@ -33,10 +36,10 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
- 
+
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     padding: 10px;
     background-color: rgba(74, 253, 74, 0.904);
@@ -46,7 +49,6 @@ nav ul li a{
 }
 nav ul li a:hover {
     color: blue;
-
 }
 .Synopsis {
     margin: 20px;
@@ -62,23 +64,29 @@ nav ul li a:hover {
     margin: 20px;
     text-align: start;
     color: beige;
-    text-shadow: 4px 4px 3px rgba(74, 253, 128, 0.904);
-
+    text-shadow: 4px 4px 3px rgba(74, 253, 74, 0.904);
 }
-
+.Synopsis h3 {
+    text-align: start;
+    margin: 20px;
+    color:rgba(74, 253, 74, 0.904)
+}
 .Synopsis img {
-    margin-right: 20px;
-    border-radius: 10px;
+    margin-right:10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(74, 253, 74, 0.804);
     width: 500px;
     float: left;
-
 }
 
 .Synopsis div p {
     font-style: italic;
     line-height: 2;
     margin: 20px;
-    text-align: justify;
+    text-align: justify; 
 }
 
 .Synopsis span {
@@ -86,6 +94,7 @@ nav ul li a:hover {
 }
 
 .Synopsis p {
+    margin-left:20px;
     padding: 5px;
 }
 
@@ -138,7 +147,7 @@ nav ul li a:hover {
     font-size: 50px;
     text-align: center;
     color: beige;
-    text-shadow: 4px 4px 3px rgba(74, 253, 128, 0.904);
+    text-shadow: 4px 4px 3px rgba(74, 253, 74, 0.904);
 }
 
 .Watch {
@@ -154,19 +163,25 @@ nav ul li a:hover {
     width: 250px;
     border-radius: 10px;
     margin: 10px;
+    box-shadow: 8px 8px 20px 0 black;
 }
 
 .Watch h2 {
     margin: 20px;
-    padding: 10px;
+    padding: 5px;
     font-size: 50px;
-    text-align: left
+    text-align: left;
 }
-
+.Watch h3 {
+    margin: 20px;
+    padding: 5px;
+    text-align: left;
+    
+}
 .Watch p {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
-    margin: 10px;
+    margin: 20px;
 }
 
 footer {
@@ -195,7 +210,6 @@ footer div {
     width: 350px;
     border-radius: 10px;
     text-align: center;
-    
 }
 
 .About p {
@@ -207,30 +221,29 @@ footer div {
 footer ul li {
     list-style: none;
     font-size: 15px;
-    line-height: 1,5;
+    line-height: 1, 5;
     display: flex;
     justify-content: left;
     align-items: center;
-  
 }
 
 .github {
     width: 35px;
     margin: 5px;
-    }
-
-.email{
-    width: 20px;
-    margin:15px;
-        
 }
 
-footer ul li a{
+.email {
+    width: 20px;
+    margin: 15px;
+
+}
+
+footer ul li a {
     text-decoration: none;
     color: black;
     text-align: center;
     padding: 5px;
-    
+
 }
 
 footer ul li:hover {

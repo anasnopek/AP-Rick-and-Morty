@@ -6,10 +6,12 @@
 }
 
 body {
+
     background-image: url(https://th.bing.com/th/id/OIP.yY1orWV2ppY73vj6doZnLQHaNH?pid=ImgDet&rs=1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 header {
@@ -21,13 +23,16 @@ header {
     align-items: center;
 }
 
+
 .image {
-    width: 200px; 
+    width: 200px;
 }
+
 .portal {
     width: 150px;
     border-radius: 50%;
 }
+
 .logo {
     width: 350px;
 }
@@ -42,14 +47,17 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     padding: 10px;
-    background-color: rgba(74, 253, 74, 0.904);
-    border-radius: 10px;
+    border-style: double;
+    background-color: rgba(56, 252, 56, 0.904);
+    border-radius: 20px;
     color: beige;
     font-weight: bold;
 }
+
 nav ul li a:hover {
-    color: blue;
+    color: black;
 }
+
 .Synopsis {
     margin: 20px;
     padding: 30px;
@@ -64,20 +72,24 @@ nav ul li a:hover {
     margin: 20px;
     text-align: start;
     color: beige;
-    text-shadow: 4px 4px 3px rgba(74, 253, 74, 0.904);
+    text-shadow: 4px 4px 3px rgba(56, 252, 56, 0.904);
 }
+
 .Synopsis h3 {
     text-align: start;
+    font-weight: bold;
     margin: 20px;
-    color:rgba(74, 253, 74, 0.904)
+    color: rgba(56, 252, 56, 0.904);
 }
+
 .Synopsis img {
-    margin-right:10px;
+    margin-right: 20px;
     margin-left: 20px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 5px;
     border-radius: 20px;
     border-style: solid;
-    border-color: rgba(74, 253, 74, 0.804);
+    border-color: rgba(56, 252, 56, 0.904);
     width: 500px;
     float: left;
 }
@@ -86,7 +98,7 @@ nav ul li a:hover {
     font-style: italic;
     line-height: 2;
     margin: 20px;
-    text-align: justify; 
+    text-align: justify;
 }
 
 .Synopsis span {
@@ -94,8 +106,23 @@ nav ul li a:hover {
 }
 
 .Synopsis p {
-    margin-left:20px;
+    margin-left: 20px;
     padding: 5px;
+}
+
+.slogan h3 {
+    text-align: center;
+}
+
+.voices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voices img {
+    width: 200px;
+    margin: 20px;
 }
 
 .Characters div h2 {
@@ -104,6 +131,7 @@ nav ul li a:hover {
     padding: 20px;
     font-size: 40px;
     text-align: center;
+
 }
 
 .container-grid {
@@ -124,6 +152,9 @@ nav ul li a:hover {
     margin: 10px;
     width: 220px;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(56, 252, 56, 0.904);
 
 }
 
@@ -147,7 +178,7 @@ nav ul li a:hover {
     font-size: 50px;
     text-align: center;
     color: beige;
-    text-shadow: 4px 4px 3px rgba(74, 253, 74, 0.904);
+    text-shadow: 4px 4px 3px rgba(56, 252, 56, 0.904);
 }
 
 .Watch {
@@ -172,12 +203,14 @@ nav ul li a:hover {
     font-size: 50px;
     text-align: left;
 }
+
 .Watch h3 {
     margin: 20px;
     padding: 5px;
     text-align: left;
-    
+
 }
+
 .Watch p {
     text-align: left;
     font-size: 20px;
@@ -208,7 +241,6 @@ footer div {
     padding: 10px;
     margin: 5px;
     width: 350px;
-    border-radius: 10px;
     text-align: center;
 }
 
@@ -251,18 +283,182 @@ footer ul li:hover {
     border-radius: 15px;
 }
 
-@media(max-width: 480px) {
+@media(max-width:880px) {
     header {
-        background-color: beige;
+        display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        margin: 20px;
+        padding: 40px;
     }
 
     .image {
         position: relative;
+        margin-bottom: 25px;
+        padding-left: 25px;
+        padding-top: 25px;
+        box-shadow: 0px 5px 10px 5px black;
+        border-radius: 50%;
+
+    }
+
+    header nav ul li a {
+        flex-direction: column;
+        margin: 5px;
+
+    }
+
+    .logo {
+        position: relative;
+        width: 60%;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+
+    .portal {
+        display: none;
+    }
+
+    .voices {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .voices img{
+        width: 20%
+    }
+
+    .About {
+        padding: 10px;
+        margin: 5px;
+        width: 30%;
+        text-align: center;
+    }
+
+    .About p {
+        text-align: justify;
+        font-style: italic;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:440px) {
+    body {
+        background-image: url(https://i.pinimg.com/236x/02/a8/ae/02a8aefa6727ed8a11d7f34799185455.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 10px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 20px;
+        padding: 40px;
     }
 
     header nav ul {
         flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .tittle {
+        text-align: center;
+    }
+
+    .Synopsis {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Synopsis h3 {
+        text-align: center;
+    }
+
+    .Synopsis img {
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        border-style: double;
+        border-color: rgba(56, 252, 56, 0.904);
+    }
+
+    .Synopsis p {
+        text-align: center;
+
+    }
+
+
+    .Fan-facts {
+        background-color: rgba(245, 220, 223, 0.315);
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Watch {
+        background-color: rgba(245, 220, 223, 0.315);
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .watch img {
+        order: 2;
+        text-align: center;
+    }
+
+    .Watch h2 {
+        text-align: center;
+    }
+
+    .Watch h3 {
+        text-align: center;
+    }
+
+    .Watch p {
+        text-align: center;
+    }
+
+    footer {
+        color: beige;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div {
+        text-align: center;
+    }
+
+    .About {
+        width: 90%;
+        margin: 50px;
+    }
+
+    footer ul li a {
+        color: beige;
+    }
+
+    .github {
+        background-color: beige;
+    }
+
+    .email {
+        background-color: beige;
     }
 }

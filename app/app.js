@@ -3,8 +3,8 @@ const open = document.querySelector(#"open");
 const close = document.querySelector(#"close");
 
 open.addEventListener("click", () => {
-nav.ul.add ("visible");
+nav.classList.add ("visible");
 })
 close.addEventListener("click", () => {
-    nav.ul.remove("visible");
+    nav.classList.remove("visible");
 })

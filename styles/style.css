@@ -360,14 +360,14 @@ footer ul li:hover {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        
+
     }
 
     header div {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 0 10px;    
+
 
     }
 
@@ -376,15 +376,20 @@ footer ul li:hover {
         display: block;
         border: 0;
         font-size: 30px;
-        background-color:  rgba(56, 252, 56, 0.904);
+        background-color: rgba(56, 252, 56, 0.904);
         opacity: 80%;
         border-radius: 5px;
         border: double;
-        border-color: black;
+        border-color: blue;
         cursor: pointer;
-        color: beige;   
-        margin-top: 30px;
+        color: beige;
+        margin-top: 20px;
+      
+    }
 
+    .close-menu {
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
 
     .nav {
@@ -392,14 +397,13 @@ footer ul li:hover {
         visibility: hidden;
         display: flex;
         flex-direction: column;
-        gap: 10px;
         position: absolute;
-        top: 0;
-        right: 0;
-        padding: 30px;
+        top: 20px;
+        right: 10px;
+        padding-bottom: 10px;
         align-items: end;
-        margin: 10px;
-
+        background-color: rgba(56, 252, 56, 0.877);
+        
     }
 
     .nav-visible {
@@ -407,11 +411,12 @@ footer ul li:hover {
         visibility: visible;
     }
 
-    nav ul {
+    .nav-list {
         flex-direction: column;
         align-items: end;
-    }
+        padding-right: 5px;
 
+    }
 
     nav ul li {
         text-shadow: 4px 4px 3px black;
@@ -419,7 +424,7 @@ footer ul li:hover {
 
     nav ul li a {
         font-size: normal;
-        color: rgba(56, 252, 56, 0.904);
+        color: beige;
         background: none;
         border: none;
 
@@ -433,7 +438,7 @@ footer ul li:hover {
         width: 70%;
         margin-top: 5px;
         background: none;
-       
+
 
     }
 

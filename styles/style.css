@@ -360,15 +360,14 @@ footer ul li:hover {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        margin: 5px;
-        padding: 0;
+        
     }
 
     header div {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        gap: 20px;
+        align-items: flex-start;
+        padding: 0 10px;    
 
     }
 
@@ -377,8 +376,14 @@ footer ul li:hover {
         display: block;
         border: 0;
         font-size: 30px;
-        background-color: transparent;
+        background-color:  rgba(56, 252, 56, 0.904);
+        opacity: 80%;
+        border-radius: 5px;
+        border: double;
+        border-color: black;
         cursor: pointer;
+        color: beige;   
+        margin-top: 30px;
 
     }
 
@@ -426,6 +431,9 @@ footer ul li:hover {
 
     .logo {
         width: 70%;
+        margin-top: 5px;
+        background: none;
+       
 
     }
 
